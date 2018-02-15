@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/test','TestController@index');
+Route::get('/findx','TestController@findx');
+Route::get('/findy','TestController@findy');
+Route::get('/findPattern','TestController@findPattern');
